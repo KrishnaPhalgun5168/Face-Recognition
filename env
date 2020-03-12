@@ -1,0 +1,5 @@
+pickle; os
+pip3 install mtcnn==0.1.0
+pip3 install Keras==2.3.1
+pip install scipy==1.4.1
+pip3 install opencv-python==4.2.0.32
