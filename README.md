@@ -1,2 +1,2 @@
 # Face-Recognition
-#Python3 #MTCNN #VGGFace #OpenCV #Scipy
+#MTCNN #VGGFace #OpenCV #Scipy
