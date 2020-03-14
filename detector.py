@@ -116,7 +116,7 @@ class RTAS():
 			img = self.getimg(path=path)
 			if recognizefaces:
 		 		img = self.recognizefaces(img)
-		 	img = cv2.cvtColor(np.array(image.array_to_img(img)), cv2.COLOR_RGB2BGR)
+			img = cv2.cvtColor(np.array(image.array_to_img(img)), cv2.COLOR_RGB2BGR)
 			cv2.imshow('image', img)
 #			cv2.imwrite('output.png', img)
 			key = cv2.waitKey(0)
@@ -139,5 +139,5 @@ class RTAS():
 if __name__ == "__main__":
 
 	recognizer = RTAS()
-	recognizer.upload(path='test/ModiShah.jpg', recognizefaces=True)
-	#recognizer.upload(live=True, recognizefaces=True)
+	#recognizer.upload(path='test/ModiShah.jpg', recognizefaces=True)
+	recognizer.upload(live=True, recognizefaces=True)
