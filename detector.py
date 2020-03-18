@@ -139,5 +139,5 @@ class RTAS():
 if __name__ == "__main__":
 
 	recognizer = RTAS()
-	#recognizer.upload(path='test/ModiShah.jpg', recognizefaces=True)
-	recognizer.upload(live=True, recognizefaces=True)
+	recognizer.upload(path='test/test.jpg', recognizefaces=True)
+	#recognizer.upload(live=True, recognizefaces=True)
