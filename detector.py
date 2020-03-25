@@ -1,5 +1,4 @@
 import cv2, pickle
-import numpy as np
 #import pkg_resources
 from os import listdir, path
 from mtcnn.mtcnn import MTCNN
@@ -139,5 +138,5 @@ class RTAS():
 if __name__ == "__main__":
 
 	recognizer = RTAS()
-	recognizer.upload(path='test/test.jpg', recognizefaces=True)
-	#recognizer.upload(live=True, recognizefaces=True)
+	#recognizer.upload(path='test/test.jpg', recognizefaces=True)
+	recognizer.upload(live=True, recognizefaces=True)
