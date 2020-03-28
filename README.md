@@ -1,5 +1,5 @@
 # Face-Recognition
-#MTCNN #VGGFace #OpenCV #Scipy
+#MTCNN #VGGFace #Keras #OpenCV #Scipy
 </br>
 The model is trained with images of Billgates, Elonmusk and Steve jobs.
 </br>
