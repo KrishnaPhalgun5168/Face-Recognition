@@ -1,3 +1,4 @@
+import numpy as np
 import cv2, pickle
 #import pkg_resources
 from os import listdir, path
